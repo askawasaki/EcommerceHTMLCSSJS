@@ -554,6 +554,55 @@ footer .copyright{
     font-size: 15px;
 }
 
+/* Shop Page */
+
+#Shopbanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("img/banner/b1.jpg");
+  padding: 75px 0;
+}
+
+#Shopbanner .ShopBannerText h4,
+#Shopbanner .ShopBannerText p{
+  color: #fff;
+  margin: 10px;
+}
+
+#Shopbanner .ShopBannerText h4{
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.PageNumbers{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.PageNumbers li{
+  list-style: none;
+  margin: 10px 3px;
+  padding: 25px 25px;
+  background-color: green;
+  border-radius: 7px;
+}
+
+.PageNumbers li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+}
+
+.PageNumbers .PageNumber1{
+  padding-right: 27px;
+  padding-left: 27px;
+}
+
 /*
 @media (max-width: 1173px) {
   #feature {
