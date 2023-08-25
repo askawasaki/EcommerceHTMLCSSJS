@@ -562,6 +562,7 @@ footer .copyright{
     font-size: 15px;
 }
 
+
 /* Shop Page */
 
 #Shopbanner{
@@ -694,6 +695,7 @@ footer .copyright{
   }
 }
 */
+
 @media (max-width: 799px) {
   .section-p1{
     padding: 40px 40px;
