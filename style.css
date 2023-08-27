@@ -88,6 +88,16 @@ body {
   width: 100%;
 }
 
+.PageBanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 75px 0;
+}
+
+/* HOME PAGE */
 /* header start */
 
 #header{
@@ -565,17 +575,11 @@ footer .copyright{
 /* Shop Page */
 
 #Shopbanner{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   background-image: url("img/banner/b1.jpg");
-  padding: 75px 0;
 }
 
-#Shopbanner .ShopBannerText h4,
-#Shopbanner .ShopBannerText p{
+#Shopbanner .PageBannerText h4,
+#Shopbanner .PageBannerText p{
   color: #fff;
   margin: 10px;
 }
